@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A24C06E1614A22900CAAA58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A24C06D1614A22900CAAA58 /* UIKit.framework */; };
+		6A24C0701614A22900CAAA58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A24C06F1614A22900CAAA58 /* Foundation.framework */; };
+		6A24C0721614A22900CAAA58 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A24C0711614A22900CAAA58 /* CoreGraphics.framework */; };
+		6A24C0781614A22900CAAA58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A24C0761614A22900CAAA58 /* InfoPlist.strings */; };
+		6A24C07A1614A22900CAAA58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A24C0791614A22900CAAA58 /* main.m */; };
+		6A24C07E1614A22900CAAA58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A24C07D1614A22900CAAA58 /* AppDelegate.m */; };
+		6A24C0811614A22900CAAA58 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A24C07F1614A22900CAAA58 /* MainStoryboard.storyboard */; };
+		6A24C0841614A22900CAAA58 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A24C0831614A22900CAAA58 /* MasterViewController.m */; };
+		6A24C0871614A22900CAAA58 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A24C0861614A22900CAAA58 /* DetailViewController.m */; };
+		6A24C08F1614A22A00CAAA58 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A24C08E1614A22A00CAAA58 /* SenTestingKit.framework */; };
+		6A24C0901614A22A00CAAA58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A24C06D1614A22900CAAA58 /* UIKit.framework */; };
+		6A24C0911614A22A00CAAA58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A24C06F1614A22900CAAA58 /* Foundation.framework */; };
+		6A24C0991614A22A00CAAA58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A24C0971614A22A00CAAA58 /* InfoPlist.strings */; };
+		6A24C09C1614A22A00CAAA58 /* ExemploSplitViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A24C09B1614A22A00CAAA58 /* ExemploSplitViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A24C0921614A22A00CAAA58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A24C0601614A22900CAAA58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A24C0681614A22900CAAA58;
+			remoteInfo = ExemploSplitView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A24C0691614A22900CAAA58 /* ExemploSplitView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExemploSplitView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A24C06D1614A22900CAAA58 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A24C06F1614A22900CAAA58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A24C0711614A22900CAAA58 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A24C0751614A22900CAAA58 /* ExemploSplitView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExemploSplitView-Info.plist"; sourceTree = "<group>"; };
+		6A24C0771614A22900CAAA58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A24C0791614A22900CAAA58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A24C07B1614A22900CAAA58 /* ExemploSplitView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExemploSplitView-Prefix.pch"; sourceTree = "<group>"; };
+		6A24C07C1614A22900CAAA58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A24C07D1614A22900CAAA58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A24C0801614A22900CAAA58 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6A24C0821614A22900CAAA58 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		6A24C0831614A22900CAAA58 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		6A24C0851614A22900CAAA58 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		6A24C0861614A22900CAAA58 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		6A24C08D1614A22A00CAAA58 /* ExemploSplitViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExemploSplitViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A24C08E1614A22A00CAAA58 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6A24C0961614A22A00CAAA58 /* ExemploSplitViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExemploSplitViewTests-Info.plist"; sourceTree = "<group>"; };
+		6A24C0981614A22A00CAAA58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A24C09A1614A22A00CAAA58 /* ExemploSplitViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExemploSplitViewTests.h; sourceTree = "<group>"; };
+		6A24C09B1614A22A00CAAA58 /* ExemploSplitViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExemploSplitViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A24C0661614A22900CAAA58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A24C06E1614A22900CAAA58 /* UIKit.framework in Frameworks */,
+				6A24C0701614A22900CAAA58 /* Foundation.framework in Frameworks */,
+				6A24C0721614A22900CAAA58 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A24C0891614A22A00CAAA58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A24C08F1614A22A00CAAA58 /* SenTestingKit.framework in Frameworks */,
+				6A24C0901614A22A00CAAA58 /* UIKit.framework in Frameworks */,
+				6A24C0911614A22A00CAAA58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A24C05E1614A22900CAAA58 = {
+			isa = PBXGroup;
+			children = (
+				6A24C0731614A22900CAAA58 /* ExemploSplitView */,
+				6A24C0941614A22A00CAAA58 /* ExemploSplitViewTests */,
+				6A24C06C1614A22900CAAA58 /* Frameworks */,
+				6A24C06A1614A22900CAAA58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A24C06A1614A22900CAAA58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A24C0691614A22900CAAA58 /* ExemploSplitView.app */,
+				6A24C08D1614A22A00CAAA58 /* ExemploSplitViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A24C06C1614A22900CAAA58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A24C06D1614A22900CAAA58 /* UIKit.framework */,
+				6A24C06F1614A22900CAAA58 /* Foundation.framework */,
+				6A24C0711614A22900CAAA58 /* CoreGraphics.framework */,
+				6A24C08E1614A22A00CAAA58 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A24C0731614A22900CAAA58 /* ExemploSplitView */ = {
+			isa = PBXGroup;
+			children = (
+				6A24C07C1614A22900CAAA58 /* AppDelegate.h */,
+				6A24C07D1614A22900CAAA58 /* AppDelegate.m */,
+				6A24C07F1614A22900CAAA58 /* MainStoryboard.storyboard */,
+				6A24C0821614A22900CAAA58 /* MasterViewController.h */,
+				6A24C0831614A22900CAAA58 /* MasterViewController.m */,
+				6A24C0851614A22900CAAA58 /* DetailViewController.h */,
+				6A24C0861614A22900CAAA58 /* DetailViewController.m */,
+				6A24C0741614A22900CAAA58 /* Supporting Files */,
+			);
+			path = ExemploSplitView;
+			sourceTree = "<group>";
+		};
+		6A24C0741614A22900CAAA58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A24C0751614A22900CAAA58 /* ExemploSplitView-Info.plist */,
+				6A24C0761614A22900CAAA58 /* InfoPlist.strings */,
+				6A24C0791614A22900CAAA58 /* main.m */,
+				6A24C07B1614A22900CAAA58 /* ExemploSplitView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A24C0941614A22A00CAAA58 /* ExemploSplitViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A24C09A1614A22A00CAAA58 /* ExemploSplitViewTests.h */,
+				6A24C09B1614A22A00CAAA58 /* ExemploSplitViewTests.m */,
+				6A24C0951614A22A00CAAA58 /* Supporting Files */,
+			);
+			path = ExemploSplitViewTests;
+			sourceTree = "<group>";
+		};
+		6A24C0951614A22A00CAAA58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A24C0961614A22A00CAAA58 /* ExemploSplitViewTests-Info.plist */,
+				6A24C0971614A22A00CAAA58 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A24C0681614A22900CAAA58 /* ExemploSplitView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A24C09F1614A22A00CAAA58 /* Build configuration list for PBXNativeTarget "ExemploSplitView" */;
+			buildPhases = (
+				6A24C0651614A22900CAAA58 /* Sources */,
+				6A24C0661614A22900CAAA58 /* Frameworks */,
+				6A24C0671614A22900CAAA58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExemploSplitView;
+			productName = ExemploSplitView;
+			productReference = 6A24C0691614A22900CAAA58 /* ExemploSplitView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A24C08C1614A22A00CAAA58 /* ExemploSplitViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A24C0A21614A22A00CAAA58 /* Build configuration list for PBXNativeTarget "ExemploSplitViewTests" */;
+			buildPhases = (
+				6A24C0881614A22A00CAAA58 /* Sources */,
+				6A24C0891614A22A00CAAA58 /* Frameworks */,
+				6A24C08A1614A22A00CAAA58 /* Resources */,
+				6A24C08B1614A22A00CAAA58 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A24C0931614A22A00CAAA58 /* PBXTargetDependency */,
+			);
+			name = ExemploSplitViewTests;
+			productName = ExemploSplitViewTests;
+			productReference = 6A24C08D1614A22A00CAAA58 /* ExemploSplitViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A24C0601614A22900CAAA58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = rafapaulino.com;
+			};
+			buildConfigurationList = 6A24C0631614A22900CAAA58 /* Build configuration list for PBXProject "ExemploSplitView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6A24C05E1614A22900CAAA58;
+			productRefGroup = 6A24C06A1614A22900CAAA58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A24C0681614A22900CAAA58 /* ExemploSplitView */,
+				6A24C08C1614A22A00CAAA58 /* ExemploSplitViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A24C0671614A22900CAAA58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A24C0781614A22900CAAA58 /* InfoPlist.strings in Resources */,
+				6A24C0811614A22900CAAA58 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A24C08A1614A22A00CAAA58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A24C0991614A22A00CAAA58 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A24C08B1614A22A00CAAA58 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A24C0651614A22900CAAA58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A24C07A1614A22900CAAA58 /* main.m in Sources */,
+				6A24C07E1614A22900CAAA58 /* AppDelegate.m in Sources */,
+				6A24C0841614A22900CAAA58 /* MasterViewController.m in Sources */,
+				6A24C0871614A22900CAAA58 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A24C0881614A22A00CAAA58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A24C09C1614A22A00CAAA58 /* ExemploSplitViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A24C0931614A22A00CAAA58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A24C0681614A22900CAAA58 /* ExemploSplitView */;
+			targetProxy = 6A24C0921614A22A00CAAA58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A24C0761614A22900CAAA58 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A24C0771614A22900CAAA58 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A24C07F1614A22900CAAA58 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A24C0801614A22900CAAA58 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		6A24C0971614A22A00CAAA58 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A24C0981614A22A00CAAA58 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A24C09D1614A22A00CAAA58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6A24C09E1614A22A00CAAA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A24C0A01614A22A00CAAA58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExemploSplitView/ExemploSplitView-Prefix.pch";
+				INFOPLIST_FILE = "ExemploSplitView/ExemploSplitView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A24C0A11614A22A00CAAA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExemploSplitView/ExemploSplitView-Prefix.pch";
+				INFOPLIST_FILE = "ExemploSplitView/ExemploSplitView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6A24C0A31614A22A00CAAA58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ExemploSplitView.app/ExemploSplitView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExemploSplitView/ExemploSplitView-Prefix.pch";
+				INFOPLIST_FILE = "ExemploSplitViewTests/ExemploSplitViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6A24C0A41614A22A00CAAA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ExemploSplitView.app/ExemploSplitView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExemploSplitView/ExemploSplitView-Prefix.pch";
+				INFOPLIST_FILE = "ExemploSplitViewTests/ExemploSplitViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A24C0631614A22900CAAA58 /* Build configuration list for PBXProject "ExemploSplitView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A24C09D1614A22A00CAAA58 /* Debug */,
+				6A24C09E1614A22A00CAAA58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A24C09F1614A22A00CAAA58 /* Build configuration list for PBXNativeTarget "ExemploSplitView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A24C0A01614A22A00CAAA58 /* Debug */,
+				6A24C0A11614A22A00CAAA58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A24C0A21614A22A00CAAA58 /* Build configuration list for PBXNativeTarget "ExemploSplitViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A24C0A31614A22A00CAAA58 /* Debug */,
+				6A24C0A41614A22A00CAAA58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A24C0601614A22900CAAA58 /* Project object */;
+}
