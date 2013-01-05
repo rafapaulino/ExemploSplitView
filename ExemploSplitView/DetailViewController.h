@@ -10,7 +10,14 @@
 
 @interface DetailViewController : UIViewController <UISplitViewControllerDelegate>
 
+//centro de tudo por ele que as informacoes sao passadas
+//propriedade por onde o master passa dados para o detail
 @property (strong, nonatomic) id detailItem;
+@property (weak, nonatomic) IBOutlet UIImageView *imgvFoto;
+@property (weak, nonatomic) IBOutlet UILabel *nome;
+@property (weak, nonatomic) IBOutlet UILabel *pais;
+@property (weak, nonatomic) IBOutlet UILabel *estilo;
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+//nao usaremos a label neste projeto
+//@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end

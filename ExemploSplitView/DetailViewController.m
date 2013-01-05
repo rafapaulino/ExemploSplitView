@@ -16,7 +16,13 @@
 @implementation DetailViewController
 
 #pragma mark - Managing the detail item
+@synthesize imgvFoto = _imgvFoto;
+@synthesize nome = _nome;
+@synthesize pais = _pais;
+@synthesize estilo = _estilo;
 
+
+//setter da propriedade detailItem - que é acionado sempre quando ela é setada
 - (void)setDetailItem:(id)newDetailItem
 {
     if (_detailItem != newDetailItem) {
@@ -31,12 +37,27 @@
     }        
 }
 
+//metodo chamado sempre quando um novo conteudo aparece na propriedade detailvieItem
+//onde setaremos os dados dos elementos visuais datela
 - (void)configureView
 {
     // Update the user interface for the detail item.
 
-    if (self.detailItem) {
+    /*
+     a label nao sera utilizada no projeto
+     if (self.detailItem) {
         self.detailDescriptionLabel.text = [self.detailItem description];
+    }
+     */
+    //verificar se realmente tem algo dentro da propriedade
+    if (self.detailItem)
+    {
+        NSMutableDictionary *dictComp = self.detailItem;
+        _nome.text = [dictComp objectForKey:@"nome"];
+        _estilo.text = [dictComp objectForKey:@"estilo"];
+        _pais.text = [dictComp objectForKey:@"pais"];
+        _imgvFoto.image = [UIImage imageNamed:[dictComp objectForKey:@"foto"]];
+        
     }
 }
 
@@ -49,6 +70,10 @@
 
 - (void)viewDidUnload
 {
+    [self setImgvFoto:nil];
+    [self setNome:nil];
+    [self setPais:nil];
+    [self setEstilo:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }

@@ -11,7 +11,7 @@
 #import "DetailViewController.h"
 
 @interface MasterViewController () {
-    NSMutableArray *_objects;
+    NSMutableArray *compositores;
 }
 @end
 
@@ -28,11 +28,24 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.navigationItem.leftBarButtonItem = self.editButtonItem;
+    /*
+     Nao usaremos pois ele edita os itens da tabela e add um botao de add compositor
+     self.navigationItem.leftBarButtonItem = self.editButtonItem;
 
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
+     */
+    
+    //instanciando o detailviewcontroller
+    //pega o controlador que exibe os detalhes
     self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"Compositores" ofType:@"plist"];
+    
+    //carregar o plista para dentro de um dicionario
+    NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:path];
+    
+    compositores = [dict objectForKey:@"Compositor"];
 }
 
 - (void)viewDidUnload
@@ -46,6 +59,8 @@
     return YES;
 }
 
+/*
+ Metodo relacionado ao botao de + _objects é o compositores
 - (void)insertNewObject:(id)sender
 {
     if (!_objects) {
@@ -55,6 +70,7 @@
     NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
     [self.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
 }
+ */
 
 #pragma mark - Table View
 
@@ -65,23 +81,26 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return _objects.count;
+    return compositores.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
 
-    NSDate *object = [_objects objectAtIndex:indexPath.row];
-    cell.textLabel.text = [object description];
+    /*NSDate *object = [_objects objectAtIndex:indexPath.row];*/
+    cell.textLabel.text = [[compositores objectAtIndex:indexPath.row] objectForKey:@"nome"];
     return cell;
 }
 
+/*
+ Relacionados ao botao edit
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Return NO if you do not want the specified item to be editable.
     return YES;
 }
+
 
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -92,6 +111,7 @@
         // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
     }
 }
+ */
 
 /*
 // Override to support rearranging the table view.
@@ -111,8 +131,10 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSDate *object = [_objects objectAtIndex:indexPath.row];
-    self.detailViewController.detailItem = object;
+    /*NSDate *object = [_objects objectAtIndex:indexPath.row];*/
+    self.detailViewController.detailItem = [compositores objectAtIndex:indexPath.row];
+    
+    
 }
 
 @end

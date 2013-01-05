@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A1081E61615CE1900B22EFE /* Compositores.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A1081E51615CE1900B22EFE /* Compositores.plist */; };
+		6A1081F21615CE4500B22EFE /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A1081E91615CE4500B22EFE /* 10.jpg */; };
+		6A1081F31615CE4500B22EFE /* 108.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A1081EA1615CE4500B22EFE /* 108.jpg */; };
+		6A1081F41615CE4500B22EFE /* 110.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A1081EB1615CE4500B22EFE /* 110.jpg */; };
+		6A1081F51615CE4500B22EFE /* 113.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A1081EC1615CE4500B22EFE /* 113.jpg */; };
+		6A1081F61615CE4500B22EFE /* 115.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A1081ED1615CE4500B22EFE /* 115.jpg */; };
+		6A1081F71615CE4500B22EFE /* 25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A1081EE1615CE4500B22EFE /* 25.jpg */; };
+		6A1081F81615CE4500B22EFE /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A1081EF1615CE4500B22EFE /* 4.jpg */; };
+		6A1081F91615CE4500B22EFE /* 46.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A1081F01615CE4500B22EFE /* 46.jpg */; };
+		6A1081FA1615CE4500B22EFE /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A1081F11615CE4500B22EFE /* 6.jpg */; };
 		6A24C06E1614A22900CAAA58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A24C06D1614A22900CAAA58 /* UIKit.framework */; };
 		6A24C0701614A22900CAAA58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A24C06F1614A22900CAAA58 /* Foundation.framework */; };
 		6A24C0721614A22900CAAA58 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A24C0711614A22900CAAA58 /* CoreGraphics.framework */; };
@@ -34,6 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A1081E51615CE1900B22EFE /* Compositores.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Compositores.plist; sourceTree = "<group>"; };
+		6A1081E91615CE4500B22EFE /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		6A1081EA1615CE4500B22EFE /* 108.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 108.jpg; sourceTree = "<group>"; };
+		6A1081EB1615CE4500B22EFE /* 110.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 110.jpg; sourceTree = "<group>"; };
+		6A1081EC1615CE4500B22EFE /* 113.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 113.jpg; sourceTree = "<group>"; };
+		6A1081ED1615CE4500B22EFE /* 115.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 115.jpg; sourceTree = "<group>"; };
+		6A1081EE1615CE4500B22EFE /* 25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 25.jpg; sourceTree = "<group>"; };
+		6A1081EF1615CE4500B22EFE /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		6A1081F01615CE4500B22EFE /* 46.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 46.jpg; sourceTree = "<group>"; };
+		6A1081F11615CE4500B22EFE /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
 		6A24C0691614A22900CAAA58 /* ExemploSplitView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExemploSplitView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A24C06D1614A22900CAAA58 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6A24C06F1614A22900CAAA58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -81,6 +101,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A1081E81615CE4500B22EFE /* Fotos compositores */ = {
+			isa = PBXGroup;
+			children = (
+				6A1081E91615CE4500B22EFE /* 10.jpg */,
+				6A1081EA1615CE4500B22EFE /* 108.jpg */,
+				6A1081EB1615CE4500B22EFE /* 110.jpg */,
+				6A1081EC1615CE4500B22EFE /* 113.jpg */,
+				6A1081ED1615CE4500B22EFE /* 115.jpg */,
+				6A1081EE1615CE4500B22EFE /* 25.jpg */,
+				6A1081EF1615CE4500B22EFE /* 4.jpg */,
+				6A1081F01615CE4500B22EFE /* 46.jpg */,
+				6A1081F11615CE4500B22EFE /* 6.jpg */,
+			);
+			path = "Fotos compositores";
+			sourceTree = "<group>";
+		};
 		6A24C05E1614A22900CAAA58 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +153,8 @@
 				6A24C07C1614A22900CAAA58 /* AppDelegate.h */,
 				6A24C07D1614A22900CAAA58 /* AppDelegate.m */,
 				6A24C07F1614A22900CAAA58 /* MainStoryboard.storyboard */,
+				6A1081E81615CE4500B22EFE /* Fotos compositores */,
+				6A1081E51615CE1900B22EFE /* Compositores.plist */,
 				6A24C0821614A22900CAAA58 /* MasterViewController.h */,
 				6A24C0831614A22900CAAA58 /* MasterViewController.m */,
 				6A24C0851614A22900CAAA58 /* DetailViewController.h */,
@@ -229,6 +267,16 @@
 			files = (
 				6A24C0781614A22900CAAA58 /* InfoPlist.strings in Resources */,
 				6A24C0811614A22900CAAA58 /* MainStoryboard.storyboard in Resources */,
+				6A1081E61615CE1900B22EFE /* Compositores.plist in Resources */,
+				6A1081F21615CE4500B22EFE /* 10.jpg in Resources */,
+				6A1081F31615CE4500B22EFE /* 108.jpg in Resources */,
+				6A1081F41615CE4500B22EFE /* 110.jpg in Resources */,
+				6A1081F51615CE4500B22EFE /* 113.jpg in Resources */,
+				6A1081F61615CE4500B22EFE /* 115.jpg in Resources */,
+				6A1081F71615CE4500B22EFE /* 25.jpg in Resources */,
+				6A1081F81615CE4500B22EFE /* 4.jpg in Resources */,
+				6A1081F91615CE4500B22EFE /* 46.jpg in Resources */,
+				6A1081FA1615CE4500B22EFE /* 6.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +490,7 @@
 				6A24C0A11614A22A00CAAA58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A24C0A21614A22A00CAAA58 /* Build configuration list for PBXNativeTarget "ExemploSplitViewTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +499,7 @@
 				6A24C0A41614A22A00CAAA58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
